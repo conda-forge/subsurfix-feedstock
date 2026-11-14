@@ -1,6 +1,6 @@
 context:
   name: subsurfix
-  version: "0.2.0"
+  version: "0.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 889fcdd6eb9784737d42ded22231d22d6a5a962e6fbda2b847bc95b3f625b38a
+  sha256: 401251474e23a9657538db0d88b07b0d2417d7ef7dfda28100c57140eccbefc9
 
 build:
   number: 0
